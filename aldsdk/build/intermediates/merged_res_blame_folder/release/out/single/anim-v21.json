@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/4cf210a8de539eeafccafbcfb0c8635c/transformed/fragment-1.3.4/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    }
+]

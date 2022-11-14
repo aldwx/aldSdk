@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-land/material_clock_period_toggle_land.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/layout-land/material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-land/material_timepicker.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/layout-land/material_timepicker.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/layout-land/mtrl_picker_header_dialog.xml"
+    }
+]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sensorsdata.analytics.android.sdk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="31" />
+
+    <!-- send data -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- network state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- carrier -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application>
+        <provider
+            android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"
+            android:authorities="${applicationId}.SensorsDataContentProvider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.sensorsdata.analytics.android.MainProcessName"
+            android:value="${applicationId}" />
+        <meta-data
+            android:name="com.sensorsdata.analytics.android.version"
+            android:value="0.0.9" />
+    </application>
+
+</manifest>

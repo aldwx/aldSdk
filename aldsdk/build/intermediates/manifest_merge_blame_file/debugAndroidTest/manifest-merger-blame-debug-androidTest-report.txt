@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aldwx.aldsdk.test" >
+4
+5    <uses-sdk
+5-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:5:15-41
+7        android:targetSdkVersion="32" />
+7-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:11:5-15:71
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:13:22-53
+13        android:label="Tests for com.aldwx.aldsdk.test"
+13-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:15:22-69
+14        android:targetPackage="com.aldwx.aldsdk.test" />
+14-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:12:22-67
+15    <!-- send data -->
+16    <uses-permission android:name="android.permission.INTERNET" /> <!-- network state -->
+16-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+16-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- carrier -->
+17-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+17-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-75
+18-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-76
+19-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.REORDER_TASKS" />
+20-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:24:5-72
+20-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:24:22-69
+21
+22    <queries>
+22-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
+23        <package android:name="androidx.test.orchestrator" />
+23-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+23-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+24        <package android:name="androidx.test.services" />
+24-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+24-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+25        <package android:name="com.google.android.apps.common.testing.services" />
+25-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+25-->[androidx.test:runner:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/498de240f71cc35f96a8627d15c93055/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+26    </queries>
+27
+28    <application
+28-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:7:5-9:19
+29        android:allowBackup="true"
+29-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/b812a1b14aafb462a6cb7b8a20d3bdea/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:label="@string/app_name"
+32-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-41
+33        android:supportsRtl="true" >
+33-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-35
+34        <uses-library android:name="android.test.runner" />
+34-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:8:9-60
+34-->/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15744271649678589244.xml:8:23-57
+35
+36        <provider
+36-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-23:40
+37            android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"
+37-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+38            android:authorities="com.aldwx.aldsdk.test.SensorsDataContentProvider"
+38-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-78
+39            android:enabled="true"
+39-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-35
+40            android:exported="false" />
+40-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+41
+42        <meta-data
+42-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-27:48
+43            android:name="com.sensorsdata.analytics.android.MainProcessName"
+43-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-77
+44            android:value="com.aldwx.aldsdk.test" />
+44-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-45
+45        <meta-data
+45-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:37
+46            android:name="com.sensorsdata.analytics.android.version"
+46-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-69
+47            android:value="0.0.9" />
+47-->[:aldsdk] /Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-34
+48
+49        <activity
+49-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
+50            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+50-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
+51            android:exported="true"
+51-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
+52            android:theme="@android:style/Theme" >
+52-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
+53            <intent-filter>
+53-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
+54-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
+58            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+58-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
+59            android:exported="true"
+59-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
+60            android:theme="@android:style/Theme" >
+60-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
+61            <intent-filter>
+61-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
+62-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
+66            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+66-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
+67            android:exported="true"
+67-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
+68            android:theme="@android:style/Theme.Dialog" >
+68-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
+69            <intent-filter>
+69-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
+70-->[androidx.test:core:1.4.0] /Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/2bd9aa75f1731b11e2dcd5ea561b1f8e/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
+71            </intent-filter>
+72        </activity>
+73    </application>
+74
+75</manifest>

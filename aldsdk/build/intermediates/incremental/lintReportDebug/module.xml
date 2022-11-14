@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/nan/AndroidStudioProjects/hui/aldsdk"
+    name=":aldsdk"
+    type="LIBRARY"
+    maven="hui:aldsdk:"
+    gradle="7.1.2"
+    buildFolder="build"
+    bootClassPath="/Users/nan/Library/Android/sdk/platforms/android-32/android.jar:/Users/nan/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-32">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

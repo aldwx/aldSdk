@@ -1,0 +1,117 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.kezong.fat-aar'
+apply plugin: 'maven-publish'
+apply plugin: 'signing'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    // 添加 Sensors Analytics SDK 依赖
+    embed 'com.sensorsdata.analytics.android:SensorsAnalyticsSDK:6.4.4'
+    embed 'com.sensorsdata.analytics.android:core:0.0.9'
+    embed 'com.sensorsdata.analytics.android:advert:0.0.9'
+    embed 'com.sensorsdata.analytics.android:visual:0.0.9'
+}
+
+repositories {
+    mavenCentral();
+    maven { url 'https://maven.aliyun.com/repository/central' }
+    maven { url 'https://maven.aliyun.com/repository/public' }
+}
+signing {
+    sign configurations.archives
+}
+
+publishing {
+    repositories {
+        maven {
+            credentials {
+                username 'ald' // 仓库发布用户名
+                password 'QWErty,,..2022' // 仓库发布用户密码
+            }
+            url 'http://140.143.7.175/liuyanan/aldSdk.git' // 仓库地址
+        }
+    }
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.aldwx.aldsdk' // groupId
+            artifactId 'AldSdk' // artifactId
+            version '1.0.0' // 发布版本
+            description 'This is a project about Data statistics v1.0.0' // 说明描述
+            artifact "${project.buildDir}/outputs/aar/${project.name}-release.aar"
+            pom.withXml{
+                def dependenciesNode = asNode().appendNode("dependencies")
+                // 添加一个依赖
+                def dependencyNode = dependenciesNode.appendNode('dependency')
+                dependencyNode.appendNode('groupId', dependency.group)
+                dependencyNode.appendNode('artifactId', dependency.name)
+                dependencyNode.appendNode('version', dependency.version)
+                // 逐一添加第三方依赖。。。
+            }
+
+            // 如果依赖比较多，有个更简洁的方式就是读取配置的依赖配置，逐一添加。这种方法在依赖变更之后，也会自动识别，如下所示
+//            pom.withXml{
+//                def dependenciesNode = asNode().appendNode("dependencies")
+//                configurations.implementation.allDependencies.forEach(){
+//                    Dependency dependency ->
+//                        if (dependency.version != "unspecified" && dependency.name != "unspecified"){
+//                            def dependencyNode = dependenciesNode.appendNode('dependency')
+//                            dependencyNode.appendNode('groupId', dependency.group)
+//                            dependencyNode.appendNode('artifactId', dependency.name)
+//                            dependencyNode.appendNode('version', dependency.version)
+//                        }
+//                }
+//            }
+        }
+    }
+}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                // 添加以下配置可以自动从编译容器中获取release版本内容（使用debug可以获取debug版本内容），并生成pom文件
+                // 注意：发布物声明必须在 afterEvaluate 内部，因为 components 在 afterEvaluate 阶段才生成完成
+                from components.release
+
+                groupId 'com.aldwx.aldsdk' // groupId
+                artifactId 'AldSdk' // artifactId
+                version '1.0.0' // 发布版本
+                description 'This is a project about Data statistics v1.0.0' // 说明描述
+            }
+        }
+    }
+}

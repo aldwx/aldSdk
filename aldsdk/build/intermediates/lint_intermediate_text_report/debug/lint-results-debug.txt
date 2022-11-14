@@ -1,0 +1,53 @@
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/layout/activity_main.xml:2: Warning: The resource R.layout.activity_main appears to be unused [UnusedResources]
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:3: Warning: The resource R.color.purple_200 appears to be unused [UnusedResources]
+    <color name="purple_200">#FFBB86FC</color>
+           ~~~~~~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:4: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
+    <color name="purple_500">#FF6200EE</color>
+           ~~~~~~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:5: Warning: The resource R.color.purple_700 appears to be unused [UnusedResources]
+    <color name="purple_700">#FF3700B3</color>
+           ~~~~~~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:6: Warning: The resource R.color.teal_200 appears to be unused [UnusedResources]
+    <color name="teal_200">#FF03DAC5</color>
+           ~~~~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:7: Warning: The resource R.color.teal_700 appears to be unused [UnusedResources]
+    <color name="teal_700">#FF018786</color>
+           ~~~~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:8: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/colors.xml:9: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:2: Warning: The resource R.mipmap.ic_launcher appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/drawable/ic_launcher_background.xml:2: Warning: The resource R.drawable.ic_launcher_background appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/drawable-v24/ic_launcher_foreground.xml:1: Warning: The resource R.drawable.ic_launcher_foreground appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:2: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/values/themes.xml:3: Warning: The resource R.style.Theme_Hui appears to be unused [UnusedResources]
+    <style name="Theme.Hui" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+           ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests=true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests=true.
+
+0 errors, 13 warnings

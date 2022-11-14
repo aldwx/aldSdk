@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/mipmap-xxhdpi-v4/ic_launcher.webp",
+        "source": "/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/mipmap-xxhdpi-v4/ic_launcher_round.webp",
+        "source": "/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

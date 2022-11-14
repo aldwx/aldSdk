@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-v26/mtrl_calendar_month.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/141d62eb94d8b6f96968e6bc53f788f3/transformed/material-1.4.0/res/layout-v26/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-v26/abc_screen_toolbar.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/be80c7bf4c3c4bc85342e0a945a1bebc/transformed/appcompat-1.3.0/res/layout-v26/abc_screen_toolbar.xml"
+    }
+]

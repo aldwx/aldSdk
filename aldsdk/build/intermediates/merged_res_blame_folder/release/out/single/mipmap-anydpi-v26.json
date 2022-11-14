@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "source": "/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/mipmap-anydpi-v26/ic_launcher.xml",
+        "source": "/Users/nan/AndroidStudioProjects/hui/aldsdk/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

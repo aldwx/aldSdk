@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/b812a1b14aafb462a6cb7b8a20d3bdea/transformed/core-1.5.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/b812a1b14aafb462a6cb7b8a20d3bdea/transformed/core-1.5.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/b812a1b14aafb462a6cb7b8a20d3bdea/transformed/core-1.5.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/nan/AndroidStudioProjects/hui/aldsdk/build/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/nan/.gradle/gradle-5.4.1/caches/transforms-3/b812a1b14aafb462a6cb7b8a20d3bdea/transformed/core-1.5.0/res/layout-v21/notification_action.xml"
+    }
+]

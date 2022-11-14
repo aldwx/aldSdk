@@ -1,0 +1,60 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# pg_map_id: 91afad4
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+c.SASlinkResponse$$ExternalSyntheticOutline0 -> c.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.StringBuilder com.sensorsdata.analytics.android.sdk.advert.model.SASlinkResponse$$InternalSyntheticOutline$3$bcf8e0ad08036a21a1d217763855ed56ad6153b210d04d4d5cf8c5b654296625$0.m(java.lang.StringBuilder,java.lang.String,char,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.aldwx.aldsdk.AbstractData -> a.a:
+    com.aldwx.aldsdk.IAldDataApi mIAldDataApi -> a
+    void dloadChannel(java.lang.String) -> a
+    void initSDK(android.content.Context,java.lang.String) -> a
+    void trackAppInstall() -> a
+    void trackEvent(java.lang.String,org.json.JSONObject) -> a
+    void initSaSDK(android.content.Context,java.lang.String) -> b
+    void trackPredefined(java.lang.String,org.json.JSONObject) -> b
+com.aldwx.aldsdk.BuildConfig -> a.b:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+com.aldwx.aldsdk.DataManager -> a.c:
+    java.lang.String SA_SERVER_URL -> a
+    void dloadChannel(java.lang.String) -> a
+    void initSaSDK(android.content.Context,java.lang.String) -> a
+    void trackEvent(java.lang.String,org.json.JSONObject) -> a
+    void initSDK(android.content.Context,java.lang.String) -> b
+    void trackPredefined(java.lang.String,org.json.JSONObject) -> b
+    void sdk(android.content.Context,java.lang.String) -> c
+com.aldwx.aldsdk.IAldDataApi -> a.d:
+    void dloadChannel(java.lang.String) -> a
+    void initSaSDK(android.content.Context,java.lang.String) -> a
+    void trackEvent(java.lang.String,org.json.JSONObject) -> a
+    void initSDK(android.content.Context,java.lang.String) -> b
+    void trackPredefined(java.lang.String,org.json.JSONObject) -> b
+com.aldwx.aldsdk.ReNameRule -> a.e:
+    java.lang.String REGEX_ACCOUNT -> a
+    java.lang.String RESUT_KEY_WORD_OK -> b
+    java.lang.String checkJson(org.json.JSONObject) -> a
+    java.lang.String checkKeyWord(java.lang.String) -> a
+    java.lang.String checkName(java.lang.String) -> b
+    java.lang.String checkPredJson(org.json.JSONObject) -> b
+    java.lang.String checkPredeName(java.lang.String) -> c
+    boolean isStartWithNumber(java.lang.String) -> d
+com.aldwx.aldsdk.TrackProcessor -> a.f:
+    void dloadChannel(java.lang.String) -> a
+    void trackAppInstall() -> a
+    void trackEvent(java.lang.String,org.json.JSONObject) -> a
+    void initSaSDK(android.content.Context,java.lang.String) -> b
+    void trackPredefined(java.lang.String,org.json.JSONObject) -> b
+com.sensorsdata.analytics.advert.BuildConfig -> b.a:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+com.sensorsdata.analytics.android.sdk.AbstractSensorsDataAPI$$ExternalSyntheticOutline0 -> com.sensorsdata.analytics.android.sdk.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.StringBuilder com.sensorsdata.analytics.android.sdk.AbstractSensorsDataAPI$$InternalSyntheticOutline$3$a4445d6bbdf3925e98583a258ce0c126cfe3104b513d0095ea896fec2c16094a$0.m(java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
