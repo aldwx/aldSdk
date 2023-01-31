@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.util.Log;
 
+
 import com.sensorsdata.analytics.android.sdk.SAConfigOptions;
 import com.sensorsdata.analytics.android.sdk.SensorsAnalyticsAutoTrackEventType;
 import com.sensorsdata.analytics.android.sdk.SensorsDataAPI;
@@ -12,8 +13,8 @@ import org.json.JSONObject;
 
 public class DataManager implements IAldDataApi {
     String SA_DEBUGE_URL = "https://debug-slog.aldwx.com/d.html?ak=";
-    String SA_SERVER_URL = "https://slog.aldwx.com/d.html?ak=";
-//    String SA_SERVER_URL = "https://test-slog.aldwx.com/d.html?ak=";
+   String SA_SERVER_URL = "https://slog.aldwx.com/d.html?ak=";
+    //String SA_SERVER_URL = "https://test-slog.aldwx.com/d.html?ak=";
 
     String url;
     @Override
@@ -98,13 +99,16 @@ public class DataManager implements IAldDataApi {
                         SensorsAnalyticsAutoTrackEventType.APP_END |
                         SensorsAnalyticsAutoTrackEventType.APP_VIEW_SCREEN)
                 //开启 Log
-                .enableLog(false);
+                .enableLog(true);
         //页面离开
         saConfigOptions.enableTrackPageLeave(true);
         //app崩溃
         saConfigOptions.enableTrackAppCrash();
         // 传入 true 代表开启推送点击事件自动采集
         saConfigOptions.enableTrackPush(true);
+        // 开启 App 打通 H5
+        saConfigOptions.enableJavaScriptBridge(true);
+
         // 需要在主线程初始化神策 SDK
         SensorsDataAPI.startWithConfigOptions(application.getApplicationContext(), saConfigOptions);
         dloadChannel("");

@@ -30,7 +30,11 @@ public class AldDataAPI {
         return sAldDataAPI;
     }
 
-    //初始化事件
+    /**
+     *
+     * @param appKey  填写您申请的appKey
+     * @param isDebug 埋点校验为true，正式上报为false
+     */
     public void initSdk(String appKey,boolean isDebug) {
         mTrackProcessor.initSDK(mContext.getApplicationContext(), appKey, isDebug);
     }
